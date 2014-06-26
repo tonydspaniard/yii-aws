@@ -43,7 +43,7 @@
 @command SimpleDb Select
 }
  */
-class A2SimpleDb extends A2S3
+class A2SimpleDb extends A2Base
 {
     /**
      * @return Aws\SimpleDb\SimpleDbClient

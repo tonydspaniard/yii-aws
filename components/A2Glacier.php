@@ -72,7 +72,7 @@
  * @method waitUntilVaultExists(array $input) Wait until a vault can be accessed. The input array uses the parameters of the DescribeVault operation and waiter specific settings
  * @method waitUntilVaultNotExists(array $input) Wait until a vault is deleted. The input array uses the parameters of the DescribeVault operation and waiter specific settings
  */
-class A2Glacier extends A2S3
+class A2Glacier extends A2Base
 {
     /**
      * @return Aws\Ses\SesClient

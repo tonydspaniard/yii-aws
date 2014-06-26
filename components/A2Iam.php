@@ -220,7 +220,7 @@
 @command Iam UploadSigningCertificate
 }
  */
-class A2IAm extends A2S3
+class A2IAm extends A2Base
 {
     /**
      * @return Aws\Iam\IamClient

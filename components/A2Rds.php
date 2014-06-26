@@ -130,7 +130,7 @@
 @command Rds RevokeDBSecurityGroupIngress
 }
  */
-class A2Rds extends A2S3
+class A2Rds extends A2Base
 {
     /**
      * @return Aws\Rds\RdsClient

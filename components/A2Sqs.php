@@ -58,7 +58,7 @@
 @command Sqs SetQueueAttributes
 }
  */
-class A2Sqs extends A2S3
+class A2Sqs extends A2Base
 {
     /**
      * @return Aws\Sqs\SqsClient

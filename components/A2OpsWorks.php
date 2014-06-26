@@ -133,7 +133,7 @@
 @command OpsWorks UpdateUserProfile
 }
  */
-class A2OpsWorks extends A2S3
+class A2OpsWorks extends A2Base
 {
     /**
      * @return Aws\OpsWorks\OpsWorksClient

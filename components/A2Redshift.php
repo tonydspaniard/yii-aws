@@ -115,7 +115,7 @@
  * @method waitUntilClusterDeleted(array $input) Wait using the ClusterDeleted waiter. The input array uses the parameters of the DescribeClusters operation and waiter specific settings
  * @method waitUntilSnapshotAvailable(array $input) Wait using the SnapshotAvailable waiter. The input array uses the parameters of the DescribeClusterSnapshots operation and waiter specific settings
  */
-class A2Redshift extends A2S3
+class A2Redshift extends A2Base
 {
     /**
      * @return Aws\Redshift\RedshiftClient

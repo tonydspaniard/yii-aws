@@ -106,7 +106,7 @@
 @command Swf TerminateWorkflowExecution
 }
  */
-class A2Swf extends A2S3
+class A2Swf extends A2Base
 {
     /**
      * @return Aws\Swf\SwfClient

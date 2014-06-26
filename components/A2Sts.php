@@ -22,7 +22,7 @@
 @command Sts GetSessionToken
 }
  */
-class A2Sts extends A2S3
+class A2Sts extends A2Base
 {
     /**
      * @return Aws\Sts\StsClient

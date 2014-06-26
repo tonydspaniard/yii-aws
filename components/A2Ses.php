@@ -71,7 +71,7 @@
  * @link http://docs.aws.amazon.com/aws-sdk-php-2/guide/latest/service-ses.html User guide
  * @link http://docs.aws.amazon.com/aws-sdk-php-2/latest/class-Aws.Ses.SesClient.html API docs
  */
-class A2Ses extends A2S3
+class A2Ses extends A2Base
 {
     /**
      * @return Aws\Ses\SesClient

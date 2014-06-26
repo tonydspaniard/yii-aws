@@ -46,7 +46,7 @@
 @command Route53 ListResourceRecordSets
 }
  */
-class A2Redshift extends A2S3
+class A2Redshift extends A2Base
 {
     /**
      * @return Aws\Route53\Route53Client
