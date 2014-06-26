@@ -16,7 +16,7 @@
  * @method Model getFederationToken(array $args = array()) {@command Sts GetFederationToken}
  * @method Model getSessionToken(array $args = array()) {@command Sts GetSessionToken}
  */
-class A2Sts extends A2S3
+class A2Sts extends A2Base
 {
 	/**
 	 * @return Aws\Sts\StsClient

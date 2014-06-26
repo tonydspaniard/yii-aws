@@ -82,7 +82,7 @@
  * @method Model uploadServerCertificate(array $args = array()) {@command Iam UploadServerCertificate}
  * @method Model uploadSigningCertificate(array $args = array()) {@command Iam UploadSigningCertificate}
  */
-class A2IAm extends A2S3
+class A2IAm extends A2Base
 {
 	/**
 	 * @return Aws\Iam\IamClient

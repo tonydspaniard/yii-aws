@@ -44,7 +44,7 @@
  * @method Model startWorkflowExecution(array $args = array()) {@command Swf StartWorkflowExecution}
  * @method Model terminateWorkflowExecution(array $args = array()) {@command Swf TerminateWorkflowExecution}
  */
-class A2Swf extends A2S3
+class A2Swf extends A2Base
 {
 	/**
 	 * @return Aws\Swf\SwfClient

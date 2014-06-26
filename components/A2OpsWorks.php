@@ -53,7 +53,7 @@
  * @method Model updateStack(array $args = array()) {@command OpsWorks UpdateStack}
  * @method Model updateUserProfile(array $args = array()) {@command OpsWorks UpdateUserProfile}
  */
-class A2OpsWorks extends A2S3
+class A2OpsWorks extends A2Base
 {
 	/**
 	 * @return Aws\OpsWorks\OpsWorksClient

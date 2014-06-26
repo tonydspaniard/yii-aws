@@ -28,7 +28,7 @@
  * @method Model subscribe(array $args = array()) {@command Sns Subscribe}
  * @method Model unsubscribe(array $args = array()) {@command Sns Unsubscribe}
  */
-class A2Sns extends A2S3
+class A2Sns extends A2Base
 {
 	/**
 	 * @return Aws\Sns\SnsClient

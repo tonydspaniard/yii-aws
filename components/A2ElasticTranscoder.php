@@ -29,7 +29,7 @@
  * @method Model updatePipelineNotifications(array $args = array()) {@command ElasticTranscoder UpdatePipelineNotifications}
  * @method Model updatePipelineStatus(array $args = array()) {@command ElasticTranscoder UpdatePipelineStatus}
  */
-class A2ElasticTranscoder extends A2S3
+class A2ElasticTranscoder extends A2Base
 {
 	/**
 	 * @return Aws\Ses\SesClient

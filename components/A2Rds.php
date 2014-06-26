@@ -52,7 +52,7 @@
  * @method Model restoreDBInstanceToPointInTime(array $args = array()) {@command Rds RestoreDBInstanceToPointInTime}
  * @method Model revokeDBSecurityGroupIngress(array $args = array()) {@command Rds RevokeDBSecurityGroupIngress}
  */
-class A2Rds extends A2S3
+class A2Rds extends A2Base
 {
 	/**
 	 * @return Aws\Rds\RdsClient
